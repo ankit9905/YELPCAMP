@@ -92,7 +92,7 @@ mongoose.connect("mongodb+srv://ankit9905:ankit@yelpcamp.df7rx.mongodb.net/yelp_
  app.use("/campgrounds/:id/comments", commentRoutes);
 
 
-//  app.listen(3000, process.env.IP, function() {
+//  app.listen(3001, process.env.IP, function() {
 //      console.log("Server Started ");
 //  });
  
