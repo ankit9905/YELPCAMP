@@ -19,7 +19,7 @@
 
 //  mongoose.connect("mongodb://localhost:27017/yelp_camp", { useNewUrlParser: true, useUnifiedTopology: true });
 
-mongoose.connect("mongodb+srv://ankit9905:ankit@yelpcamp.df7rx.mongodb.net/yelp_camp?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).catch ((error)=>{console.log(error)});
+mongoose.connect("mongodb+srv://ankit9905:ankit@yelpcamp.df7rx.mongodb.net/yelp_camp?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 
 //  mongodb+srv://ankit9905:<password>@yelpcamp.df7rx.mongodb.net/<dbname>?retryWrites=true&w=majority
 
